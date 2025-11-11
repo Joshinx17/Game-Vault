@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameVault | Game Info</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">🎮 GameVault</h1>
+  </header>
+
+  <section class="game-details" id="gameDetails">
+
+  </section>
+
+  <div class="back-btn-container">
+    <a href="index.html" class="back-btn">Back to Home</a>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p class="footer-title">🎮 GameVault</p>
+      <p class="footer-tagline">Curated by gamers, for gamers.</p>
+      <p class="footer-credits">All game titles, logos, and content © their respective creators.</p>
+      <p class="footer-links">
+        <a href="#">Privacy Policy</a> · 
+        <a href="#">Terms</a> · 
+        <a href="https://openai.com" target="_blank">About</a>
+      </p>
+      <p class="footer-copy">Made with ❤️ by <strong>Joshin Saju</strong></p>
+    </div>
+  </footer>
+
+  <script src="games.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const gameName = params.get('name');
+    const game = games.find(g => g.name === gameName);
+
+    const container = document.getElementById('gameDetails');
+
+    if (game) {
+      container.innerHTML = `
+        <div class="details-card">
+          <img src="${game.img}" alt="${game.name}">
+          <div class="info">
+            <h2>${game.name}</h2>
+            <p><strong>Developer:</strong> ${game.developer}</p>
+            <p><strong>Release Year:</strong> ${game.year}</p>
+            <p><strong>Genre:</strong> ${game.genre}</p>
+            <p class="desc">${game.longDesc}</p>
+            <a href="${game.link}" target="_blank" class="play-btn">Play Now</a>
+          </div>
+        </div>
+      `;
+    } else {
+      container.innerHTML = `<p style="text-align:center;">Game not found.</p>`;
+    }
+  </script>
+</body>
+</html>
