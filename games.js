@@ -40,6 +40,36 @@ const games = [
     link: "https://littlealchemy2.com/"
   },
   {
+    name: "Paper Planes",
+    img: "https://i.vimeocdn.com/video/620864940-c07b5f6abae68ae928bb32bcffc08b769d8278eff2b83d60d3720f2b9262f5af-d?f=webp",
+    desc: "A digital art experience that lets users fold, stamp, and throw virtual paper planes around the world to be caught by others.",
+    longDesc: "Paper Planes is an interactive social experiment, originally developed as a Google Chrome Experiment, designed to connect people globally. Users create a 3D-rendered paper plane on their device, attach their current location and a short message (or 'stamp'), and then 'throw' it into the digital sky. The plane then floats through cyberspace until it is 'caught' by another user somewhere else in the world. The catcher adds their own stamp and re-throws the plane, allowing users to trace the incredible flight path of their plane across continents as it collects various stamps and messages.",
+    developer : "Active Theory (in collaboration with Google)",
+    year: 2016,
+    genre: "Interactive Art / Social Experiment / Global Connection",
+    link: "https://paperplanes.world/"
+  },
+  {
+    name: "2048",
+    img: "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/cb8c967c-4a78-4ffa-8506-cbac69746f4f/2048.png",
+    desc: "A popular, single-player sliding block puzzle game where the goal is to combine numbered tiles to reach the '2048' tile.",
+    longDesc: "2048 is played on a 4x4 grid, using the arrow keys or swipe gestures to move all tiles in one of four directions. When two tiles with the same number collide, they merge into a new tile with the sum of their values (e.g., 2 and 2 merge to 4). After every move, a new tile (either a 2 or a 4) appears in a random empty spot. The game is won when a tile with the value 2048 is created, and the game is lost when the board fills up and no more moves are possible.",
+    developer : "Gabriele Cirulli, an Italian web developer.",
+    year: 2014,
+    genre: "Puzzle / Sliding Block Puzzle / Math Game",
+    link: "https://play2048.co/"
+  },
+  {
+    name: "Universe on Your Hands (SATURN version)",
+    img: "https://img.freepik.com/premium-photo/cosmic-hand-holding-universe-palm-glowing-galaxy_38013-99501.jpg",
+    desc: "A unique interactive web experiment that uses computer vision to let the user manipulate a 3D model of Saturn and its rings using hand gestures.",
+    longDesc: "This is a physics-based 3D visualization of the planet Saturn. The web app is designed to be controlled using hand tracking and recognition technology (requiring a camera and a compatible browser). Users can interact with the model by performing gestures—such as rotating the planet by moving their hand, scattering the rings with an open hand, or assembling them with a pinch gesture—to experience a playful, hands-on exploration of the astronomical body.",
+    developer : "Deepayan Thakur",
+    year: 2025,
+    genre: "Interactive 3D Visualization / Web Experiment / Educational Technology",
+    link: "https://deepayan-thakur.github.io/universe-on-your-hands/"
+  },
+  {
     name: "Krunker",
     img: "https://imgs.crazygames.com/games/krunker-io/cover-1591336739727.png?metadata=none&quality=100&width=1200&height=630&fit=crop",
     desc: "fast-paced browser-based multiplayer first-person shooter with blocky visuals and modding-friendly maps.",
@@ -90,3 +120,4 @@ const games = [
     link: "https://hexxagon.com/"
   },
 ];
+
