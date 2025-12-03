@@ -52,7 +52,7 @@ const games = [
   {
     name: "Universe on Your Hands (SATURN version)",
     img: "https://img.freepik.com/premium-photo/cosmic-hand-holding-universe-palm-glowing-galaxy_38013-99501.jpg",
-    desc: "A unique interactive web experiment that uses computer vision to let the user manipulate a 3D model of Saturn and its rings using hand gestures.",
+    desc: "An interactive web experiment that uses computer vision to let the user manipulate a 3D model of Saturn using hand gestures.",
     longDesc: "This is a physics-based 3D visualization of the planet Saturn. The web app is designed to be controlled using hand tracking and recognition technology (requiring a camera and a compatible browser). Users can interact with the model by performing gestures—such as rotating the planet by moving their hand, scattering the rings with an open hand, or assembling them with a pinch gesture—to experience a playful, hands-on exploration of the astronomical body.",
     developer : "Deepayan Thakur",
     year: 2025,
@@ -120,5 +120,6 @@ const games = [
     link: "https://hexxagon.com/"
   },
 ];
+
 
 
