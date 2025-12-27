@@ -1,6 +1,6 @@
 # Game-Vault
 
-A simple, browser-based vault and hub for playing a collection of classic and modern mini-games built purely with **HTML, CSS, and JavaScript**.
+A simple, browser-based vault and hub for playing a collection of classic and modern mini-games built purely with **HTML, CSS, and JavaScript**. Check out here: https://joshinx17.github.io/Game-Vault/
 
 ## 🌟 About the Project
 
