@@ -70,6 +70,16 @@ const games = [
     link: "https://play2048.co/"
   },
   {
+    name: "Flappy Bird",
+    img: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/flappybird_cover.jpg",
+    desc: "A notoriously difficult, one-button arcade sensation that challenges your patience and reflexes with every tap.",
+    longDesc: "Flappy Bird is a side-scrolling arcade game where players control 'Faby', a small pixelated bird, by tapping the screen (or pressing the spacebar) to make it flap upward. The objective is to navigate through endless sets of green pipes with narrow gaps; if the bird touches a pipe or the ground, the game ends instantly.",
+    developer : "Dong Nguyen (.Gears Studios)",
+    year: 2013,
+    genre: "Arcade / Casual / Side-scroller",
+    link: "https://flappybird.io/"
+  },
+  {
     name: "Krunker",
     img: "https://imgs.crazygames.com/games/krunker-io/cover-1591336739727.png?metadata=none&quality=100&width=1200&height=630&fit=crop",
     desc: "fast-paced browser-based multiplayer first-person shooter with blocky visuals and modding-friendly maps.",
