@@ -323,3 +323,31 @@ footer {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* ========= TOGGLE BUTTON ================== */
+.toggle-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-btn {
+  background: rgba(30, 40, 60, 0.8);
+  border: 2px solid #4db5ff;
+  color: #4db5ff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: #4db5ff;
+  color: white;
+}
+
+.toggle-btn.active {
+  background: #4db5ff;
+  color: white;
+}

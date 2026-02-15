@@ -1,28 +1,50 @@
 const container = document.getElementById("gameContainer");
+const gamesTab = document.getElementById("gamesTab");
+const funTab = document.getElementById("funTab");
 
-games.forEach(game => {
-  const card = document.createElement("div");
-  card.classList.add("card");
+function renderCards(dataArray) {
+  container.innerHTML = ""; // Clear previous cards
 
-  card.innerHTML = `
-    <img src="${game.img}" alt="${game.name}">
-    <div class="card-content">
-      <h3>${game.name}</h3>
-      <p>${game.desc}</p>
-      <div class="card-buttons">
-        <button class="play-btn">Play Now</button>
-        <button class="read-btn">Read More</button>
+  dataArray.forEach(item => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+
+    card.innerHTML = `
+      <img src="${item.img}" alt="${item.name}">
+      <div class="card-content">
+        <h3>${item.name}</h3>
+        <p>${item.desc}</p>
+        <div class="card-buttons">
+          <button class="play-btn">Visit</button>
+          <button class="read-btn">Read More</button>
+        </div>
       </div>
-    </div>
-  `;
+    `;
 
-  card.querySelector(".play-btn").addEventListener("click", () => {
-    window.open(game.link, "_blank");
+    card.querySelector(".play-btn").addEventListener("click", () => {
+      window.open(item.link, "_blank");
+    });
+
+    card.querySelector(".read-btn").addEventListener("click", () => {
+      window.location.href = `game.html?name=${encodeURIComponent(item.name)}`;
+    });
+
+    container.appendChild(card);
   });
+}
 
-  card.querySelector(".read-btn").addEventListener("click", () => {
-    window.location.href = `game.html?name=${encodeURIComponent(game.name)}`;
-  });
+// Default load
+renderCards(games);
 
-  container.appendChild(card);
+// Toggle behavior
+gamesTab.addEventListener("click", () => {
+  gamesTab.classList.add("active");
+  funTab.classList.remove("active");
+  renderCards(games);
+});
+
+funTab.addEventListener("click", () => {
+  funTab.classList.add("active");
+  gamesTab.classList.remove("active");
+  renderCards(funSites);
 });

@@ -131,7 +131,29 @@ const games = [
   },
 ];
 
-
+// ==================================== FUN SITES SECTION ============================================================
+const funSites = [
+  {
+    name: "Pointer Pointer",
+    img: "https://i.ytimg.com/vi/3ao7DdYiwx0/hq720.jpg",
+    desc: "A playful site that shows someone pointing exactly at your cursor.",
+    longDesc: "A fun interactive web toy where someone points at your mouse position.",
+    developer: "Moniker",
+    year: 2012,
+    genre: "Interactive Toy",
+    link: "https://pointerpointer.com/"
+  },
+  {
+    name: "Paper Planes",
+    img: "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/19986543/Screen_Shot_2020_05_19_at_10.23.58_AM.png",
+    desc: "Throw digital paper planes across the world.",
+    longDesc: "A global interactive art experiment where users send virtual paper planes.",
+    developer: "Active Theory",
+    year: 2016,
+    genre: "Interactive Art",
+    link: "https://paperplanes.world/"
+  }
+];
 
 
 
