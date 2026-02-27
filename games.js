@@ -90,16 +90,6 @@ const games = [
     link: "https://krunker.io/"
   },
   {
-    name: "Pointer Pointer",
-    img: "https://i.ytimg.com/vi/3ao7DdYiwx0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB14Fmd-bcm3QiNW_Jg0PcYSUYlWw",
-    desc: "A playful web experience that shows you a photo of someone pointing exactly at your mouse pointer.",
-    longDesc: "Pointer Pointer is an interactive browser based “toy” created by the Amsterdam design studio Moniker (founded by Jonathan Puckey, Luna Maurer & Roel Wouters). On the site you place your mouse cursor somewhere on the screen and after a brief delay a photograph of a person pointing appears — and the person appears to be pointing exactly at your pointer location. If you move the cursor to a new spot, a new photo appears accordingly. The fun lies purely in the novelty of “someone is pointing at your pointer” there are no goals, levels, or scores. It’s essentially a whimsical interactive art piece / curiosity rather than a conventional game. The creators deliberately included a short delay so that you have to pause your pointer and take a moment before the photo appears, making you aware of the gesture and the interaction.",
-    developer: "Moniker (Amsterdam-based experimental interactive design studio)",
-    year: 2012,
-    genre: "Interactive experimental web experience / toy",
-    link: "https://pointerpointer.com/"
-  },
-  {
     name: "Lost Gamer",
     img: "https://media.dotesports.com/wp-content/uploads/2024/05/image-64.jpg",
     desc: "A browser-based “Guessr” game where you’re dropped into a video-game world and must guess your location from your surroundings.",
@@ -135,23 +125,33 @@ const games = [
 const funSites = [
   {
     name: "Pointer Pointer",
-    img: "https://i.ytimg.com/vi/3ao7DdYiwx0/hq720.jpg",
-    desc: "A playful site that shows someone pointing exactly at your cursor.",
-    longDesc: "A fun interactive web toy where someone points at your mouse position.",
-    developer: "Moniker",
+    img: "https://i.ytimg.com/vi/3ao7DdYiwx0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB14Fmd-bcm3QiNW_Jg0PcYSUYlWw",
+    desc: "A playful web experience that shows you a photo of someone pointing exactly at your mouse pointer.",
+    longDesc: "Pointer Pointer is an interactive browser based “toy” created by the Amsterdam design studio Moniker (founded by Jonathan Puckey, Luna Maurer & Roel Wouters). On the site you place your mouse cursor somewhere on the screen and after a brief delay a photograph of a person pointing appears — and the person appears to be pointing exactly at your pointer location. If you move the cursor to a new spot, a new photo appears accordingly. The fun lies purely in the novelty of “someone is pointing at your pointer” there are no goals, levels, or scores. It’s essentially a whimsical interactive art piece / curiosity rather than a conventional game. The creators deliberately included a short delay so that you have to pause your pointer and take a moment before the photo appears, making you aware of the gesture and the interaction.",
+    developer: "Moniker (Amsterdam-based experimental interactive design studio)",
     year: 2012,
-    genre: "Interactive Toy",
+    genre: "Interactive experimental web experience / toy",
     link: "https://pointerpointer.com/"
   },
   {
     name: "Paper Planes",
-    img: "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/19986543/Screen_Shot_2020_05_19_at_10.23.58_AM.png",
+    img: "https://i.vimeocdn.com/video/620864940-c07b5f6abae68ae928bb32bcffc08b769d8278eff2b83d60d3720f2b9262f5af-d?f=webp",
     desc: "Throw digital paper planes across the world.",
     longDesc: "A global interactive art experiment where users send virtual paper planes.",
     developer: "Active Theory",
     year: 2016,
     genre: "Interactive Art",
     link: "https://paperplanes.world/"
+  },
+  {
+    name: "Patatap",
+    img: "https://i.dawn.com/large/2019/09/5d7bd5d40c335.jpg",
+    desc: "A vibrant, minimalist audiovisual instrument that transforms your keyboard into a reactive canvas of sound and motion.",
+    longDesc: "Patatap is an award-winning interactive masterpiece that turns every keystroke into a high-energy sensory explosion, blending professional-grade sound samples with sleek geometric animations. By tapping any key from A to Z, users trigger unique melodic tones and pulsing visual shapes, allowing anyone to compose a rhythmic symphony in real-time without needing any musical expertise. It serves as both a digital art installation and a stress-relief playground, offering an addictive, high-definition escape where music and motion collide to create a limitless, immersive creative experience.",
+    developer: "Jono Brandel (in collaboration with Lullatone)",
+    year: 2014,
+    genre: "Interactive Music / Digital Art / Audiovisual Web Application",
+    link: "https://patatap.com/"
   }
 ];
 
