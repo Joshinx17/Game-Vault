@@ -40,24 +40,14 @@ const games = [
     link: "https://littlealchemy2.com/"
   },
   {
-    name: "Paper Planes",
-    img: "https://i.vimeocdn.com/video/620864940-c07b5f6abae68ae928bb32bcffc08b769d8278eff2b83d60d3720f2b9262f5af-d?f=webp",
-    desc: "A digital art experience that lets users fold, stamp, and throw virtual paper planes around the world to be caught by others.",
-    longDesc: "Paper Planes is an interactive social experiment, originally developed as a Google Chrome Experiment, designed to connect people globally. Users create a 3D-rendered paper plane on their device, attach their current location and a short message (or 'stamp'), and then 'throw' it into the digital sky. The plane then floats through cyberspace until it is 'caught' by another user somewhere else in the world. The catcher adds their own stamp and re-throws the plane, allowing users to trace the incredible flight path of their plane across continents as it collects various stamps and messages.",
-    developer : "Active Theory (in collaboration with Google)",
-    year: 2016,
-    genre: "Interactive Art / Social Experiment / Global Connection",
-    link: "https://paperplanes.world/"
-  },
-  {
-    name: "Universe on Your Hands",
-    img: "https://img.freepik.com/premium-photo/cosmic-hand-holding-universe-palm-glowing-galaxy_38013-99501.jpg",
-    desc: "An interactive web experiment that uses computer vision to let the user manipulate a 3D model of Saturn using hand gestures.",
-    longDesc: "This is a physics-based 3D visualization of the planet Saturn. The web app is designed to be controlled using hand tracking and recognition technology (requiring a camera and a compatible browser). Users can interact with the model by performing gestures such as rotating the planet by moving their hand, scattering the rings with an open hand, or assembling them with a pinch gesture to experience a playful, hands-on exploration of the astronomical body.",
-    developer : "Deepayan Thakur (see more of his works <a href='https://github.com/Deepayan-Thakur' target='_blank' style='color: #0066cc; text-decoration: none; font-weight: normal;'>here</a>.)",
-    year: 2025,
-    genre: "Interactive 3D Visualization / Web Experiment / Educational Technology",
-    link: "https://deepayan-thakur.github.io/universe-on-your-hands/"
+    name: "Flappy Bird",
+    img: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/flappybird_cover.jpg",
+    desc: "A notoriously difficult, one-button arcade sensation that challenges your patience and reflexes with every tap.",
+    longDesc: "Flappy Bird is a side-scrolling arcade game where players control 'Faby', a small pixelated bird, by tapping the screen (or pressing the spacebar) to make it flap upward. The objective is to navigate through endless sets of green pipes with narrow gaps; if the bird touches a pipe or the ground, the game ends instantly.",
+    developer : "Dong Nguyen (.Gears Studios)",
+    year: 2013,
+    genre: "Arcade / Casual / Side-scroller",
+    link: "https://flappybird.io/"
   },
   {
     name: "2048",
@@ -70,14 +60,24 @@ const games = [
     link: "https://play2048.co/"
   },
   {
-    name: "Flappy Bird",
-    img: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/flappybird_cover.jpg",
-    desc: "A notoriously difficult, one-button arcade sensation that challenges your patience and reflexes with every tap.",
-    longDesc: "Flappy Bird is a side-scrolling arcade game where players control 'Faby', a small pixelated bird, by tapping the screen (or pressing the spacebar) to make it flap upward. The objective is to navigate through endless sets of green pipes with narrow gaps; if the bird touches a pipe or the ground, the game ends instantly.",
-    developer : "Dong Nguyen (.Gears Studios)",
-    year: 2013,
-    genre: "Arcade / Casual / Side-scroller",
-    link: "https://flappybird.io/"
+    name: "Skribbl.io",
+    img: "https://external-preview.redd.it/VKEv0-GWAoTV7Z9SmkakDC2CY32JKYMQDXGWC2PAAso.jpg?width=640&crop=smart&auto=webp&s=f7a962af3fa26d2f0e93aab807480e4b3000c559",
+    desc: "A funny & addictive multiplayer drawing and guessing game that brings the classic 'Pictionary' experience to your web browser.",
+    longDesc: "Skribbl.io is a high-energy social gaming platform where players compete to draw and guess words in real-time, creating a chaotic and entertaining battle of artistic skill—or lack thereof. In each round, one player is chosen to illustrate a word from three options while the others race to type the correct answer into the chat to earn points; the faster you guess, the higher you score. With its simple, colorful interface and the ability to join public rooms or host private parties with friends, it serves as the ultimate digital icebreaker, blending creative expression with fast-paced competitive fun that keeps players laughing at every distorted doodle and frantic guess.",
+    developer: "Tobs (Tobias)",
+    year: 2017,
+    genre: "Multiplayer / Casual / Drawing & Guessing Game",
+    link: "https://skribbl.io/"
+  },
+  {
+    name: "Universe on Your Hands",
+    img: "https://img.freepik.com/premium-photo/cosmic-hand-holding-universe-palm-glowing-galaxy_38013-99501.jpg",
+    desc: "An interactive web experiment that uses computer vision to let the user manipulate a 3D model of Saturn using hand gestures.",
+    longDesc: "This is a physics-based 3D visualization of the planet Saturn. The web app is designed to be controlled using hand tracking and recognition technology (requiring a camera and a compatible browser). Users can interact with the model by performing gestures such as rotating the planet by moving their hand, scattering the rings with an open hand, or assembling them with a pinch gesture to experience a playful, hands-on exploration of the astronomical body.",
+    developer : "Deepayan Thakur (see more of his works <a href='https://github.com/Deepayan-Thakur' target='_blank' style='color: #0066cc; text-decoration: none; font-weight: normal;'>here</a>.)",
+    year: 2025,
+    genre: "Interactive 3D Visualization / Web Experiment / Educational Technology",
+    link: "https://deepayan-thakur.github.io/universe-on-your-hands/"
   },
   {
     name: "Krunker",
@@ -136,11 +136,11 @@ const funSites = [
   {
     name: "Paper Planes",
     img: "https://i.vimeocdn.com/video/620864940-c07b5f6abae68ae928bb32bcffc08b769d8278eff2b83d60d3720f2b9262f5af-d?f=webp",
-    desc: "Throw digital paper planes across the world.",
-    longDesc: "A global interactive art experiment where users send virtual paper planes.",
-    developer: "Active Theory",
+    desc: "A digital art experience that lets users fold, stamp, and throw virtual paper planes around the world to be caught by others.",
+    longDesc: "Paper Planes is an interactive social experiment, originally developed as a Google Chrome Experiment, designed to connect people globally. Users create a 3D-rendered paper plane on their device, attach their current location and a short message (or 'stamp'), and then 'throw' it into the digital sky. The plane then floats through cyberspace until it is 'caught' by another user somewhere else in the world. The catcher adds their own stamp and re-throws the plane, allowing users to trace the incredible flight path of their plane across continents as it collects various stamps and messages.",
+    developer : "Active Theory (in collaboration with Google)",
     year: 2016,
-    genre: "Interactive Art",
+    genre: "Interactive Art / Social Experiment / Global Connection",
     link: "https://paperplanes.world/"
   },
   {
