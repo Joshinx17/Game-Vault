@@ -70,14 +70,14 @@ const games = [
     link: "https://skribbl.io/"
   },
   {
-    name: "Universe on Your Hands",
-    img: "https://img.freepik.com/premium-photo/cosmic-hand-holding-universe-palm-glowing-galaxy_38013-99501.jpg",
-    desc: "An interactive web experiment that uses computer vision to let the user manipulate a 3D model of Saturn using hand gestures.",
-    longDesc: "This is a physics-based 3D visualization of the planet Saturn. The web app is designed to be controlled using hand tracking and recognition technology (requiring a camera and a compatible browser). Users can interact with the model by performing gestures such as rotating the planet by moving their hand, scattering the rings with an open hand, or assembling them with a pinch gesture to experience a playful, hands-on exploration of the astronomical body.",
-    developer : "Deepayan Thakur (see more of his works <a href='https://github.com/Deepayan-Thakur' target='_blank' style='color: #0066cc; text-decoration: none; font-weight: normal;'>here</a>.)",
-    year: 2025,
-    genre: "Interactive 3D Visualization / Web Experiment / Educational Technology",
-    link: "https://deepayan-thakur.github.io/universe-on-your-hands/"
+    name: "Betrayal.io",
+    img: "https://www.gamekarma.com/images/games/935.png",
+    desc: "A thrilling multiplayer game of social deduction and mystery where players must root out the traitors hiding in plain sight.",
+    longDesc: "Betrayal.io is an intense, high-stakes social deduction game that challenges players to work together to complete tasks across various maps while identifying the deadly betrayers among them. Inspired by the classic 'mafia' genre, the game features a variety of unique roles, specialized abilities, and interactive environments that heighten the sense of tension and strategy. Whether you are playing as a crewmate trying to survive or a betrayer orchestrating a silent takeover, the sleek 2D graphics and fast-paced voting rounds provide an addictive, competitive experience that keeps every lobby on the edge of their seats.",
+    developer: "End Game Interactive",
+    year: 2020,
+    genre: "Social Deduction / Multiplayer / Strategy",
+    link: "https://betrayal.io/"
   },
   {
     name: "Krunker",
@@ -152,7 +152,17 @@ const funSites = [
     year: 2014,
     genre: "Interactive Music / Digital Art / Audiovisual Web Application",
     link: "https://patatap.com/"
-  }
+  },
+  {
+    name: "Universe on Your Hands",
+    img: "https://img.freepik.com/premium-photo/cosmic-hand-holding-universe-palm-glowing-galaxy_38013-99501.jpg",
+    desc: "An interactive web experiment that uses computer vision to let the user manipulate a 3D model of Saturn using hand gestures.",
+    longDesc: "This is a physics-based 3D visualization of the planet Saturn. The web app is designed to be controlled using hand tracking and recognition technology (requiring a camera and a compatible browser). Users can interact with the model by performing gestures such as rotating the planet by moving their hand, scattering the rings with an open hand, or assembling them with a pinch gesture to experience a playful, hands-on exploration of the astronomical body.",
+    developer : "Deepayan Thakur (see more of his works <a href='https://github.com/Deepayan-Thakur' target='_blank' style='color: #0066cc; text-decoration: none; font-weight: normal;'>here</a>.)",
+    year: 2025,
+    genre: "Interactive 3D Visualization / Web Experiment / Educational Technology",
+    link: "https://deepayan-thakur.github.io/universe-on-your-hands/"
+  },
 ];
 
 
