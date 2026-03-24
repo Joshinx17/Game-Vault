@@ -331,23 +331,45 @@ footer {
   margin-bottom: 1.5rem;
 }
 
-.toggle-btn {
+.pill-toggle {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background: rgba(30, 40, 60, 0.8);
   border: 2px solid #4db5ff;
-  color: #4db5ff;
-  padding: 0.6rem 1.5rem;
-  border-radius: 25px;
+  border-radius: 30px;
+  padding: 4px;
   cursor: pointer;
+  user-select: none;
+}
+
+.pill-slider {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: calc(50% - 4px);
+  height: calc(100% - 8px);
+  background: #4db5ff;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+  z-index: 0;
+}
+
+.pill-toggle.fun-active .pill-slider {
+  transform: translateX(100%);
+}
+
+.pill-label {
+  position: relative;
+  z-index: 1;
+  padding: 0.6rem 1.5rem;
   font-weight: 600;
-  transition: 0.3s ease;
+  color: #4db5ff;
+  transition: color 0.3s ease;
+  text-align: center;
 }
 
-.toggle-btn:hover {
-  background: #4db5ff;
-  color: white;
-}
-
-.toggle-btn.active {
-  background: #4db5ff;
+.pill-toggle:not(.fun-active) #gamesTab,
+.pill-toggle.fun-active #funTab {
   color: white;
 }

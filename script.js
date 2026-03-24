@@ -1,4 +1,5 @@
 const container = document.getElementById("gameContainer");
+const pillToggle = document.getElementById("pillToggle");
 const gamesTab = document.getElementById("gamesTab");
 const funTab = document.getElementById("funTab");
 
@@ -37,14 +38,15 @@ function renderCards(dataArray) {
 renderCards(games);
 
 // Toggle behavior
-gamesTab.addEventListener("click", () => {
-  gamesTab.classList.add("active");
-  funTab.classList.remove("active");
-  renderCards(games);
-});
+let isFun = false;
 
-funTab.addEventListener("click", () => {
-  funTab.classList.add("active");
-  gamesTab.classList.remove("active");
-  renderCards(funSites);
+pillToggle.addEventListener("click", () => {
+  isFun = !isFun;
+  if (isFun) {
+    pillToggle.classList.add("fun-active");
+    renderCards(funSites);
+  } else {
+    pillToggle.classList.remove("fun-active");
+    renderCards(games);
+  }
 });
