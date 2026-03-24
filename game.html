@@ -37,7 +37,7 @@
   <script>
     const params = new URLSearchParams(window.location.search);
     const gameName = params.get('name');
-    const game = games.find(g => g.name === gameName);
+    const game = [...games, ...funSites].find(g => g.name === gameName);
 
     const container = document.getElementById('gameDetails');
 
