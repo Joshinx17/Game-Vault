@@ -163,6 +163,16 @@ const funSites = [
     genre: "Interactive 3D Visualization / Web Experiment / Educational Technology",
     link: "https://deepayan-thakur.github.io/universe-on-your-hands/"
   },
+  {
+    name: "Git City",
+    img: "https://external-preview.redd.it/i-turned-github-into-a-3d-city-where-every-developer-is-a-v0-Ym5ydWVoZ256aGxnMYll83l6gjofdZomEPsNDCjb7BzBlemLFGXGgLWPkJrE.png?format=pjpg&auto=webp&s=de03bfe08e2c119779a7e21700363ff99dedf769",
+    desc: "An interactive 3D metropolis where every GitHub developer is transformed into a unique pixel art building based on their real-world contributions.",
+    longDesc: "Git City is a visually captivating social experiment and visualization tool that maps the entire GitHub ecosystem into a sprawling, navigable 3D skyline. In this digital world, every developer's profile manifests as a building where the height is determined by their total commits, the width reflects their number of repositories, and lit windows represent recent coding activity. Users can enter a 'free flight' mode to soar between skyscrapers, discover developers from across the globe, and unlock achievements based on their coding milestones. By turning cold data into a vibrant, shared community, the platform gamifies the open-source experience and provides a unique, artistic perspective on the impact of developers worldwide.",
+    developer : "Samuel Rizzon",
+    year: "2024 (Initial launch/Beta)",
+    genre: "Interactive Visualization / Social / Web Art",
+    link: "https://www.thegitcity.com/"
+  },
 ];
 
 
