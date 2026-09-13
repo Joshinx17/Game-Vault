@@ -16,7 +16,7 @@ function renderCards(dataArray) {
         <h3>${item.name}</h3>
         <p>${item.desc}</p>
         <div class="card-buttons">
-          <button class="play-btn">Visit</button>
+          <button class="play-btn">Play</button>
           <button class="read-btn">Read More</button>
         </div>
       </div>

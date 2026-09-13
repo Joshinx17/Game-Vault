@@ -119,6 +119,16 @@ const games = [
     genre: "Casual browser-game / trivia / exploration game",
     link: "https://hexxagon.com/"
   },
+  {
+    name: "Conway’s Game of Life",
+    img: "https://store-images.s-microsoft.com/image/apps.33312.14146704136296723.b0c0f12a-3452-43cd-bf1b-5be4d68fe2cf.dff86bb9-83fb-40a7-a40a-56cf4c8b4521?w=562",
+    desc: "An elegant web simulation of Conway’s Game of Life, where simple rules create evolving mathematical patterns.",
+    longDesc: "PlayGameOfLife.com brings John Conway’s legendary 1970 cellular automaton to the modern web, allowing users to experiment with one of computer science's most famous zero-player games directly in their browser. By setting an initial configuration of active cells on a grid or selecting classic preset patterns like gliders, blinkers, and spaceships, players kick off an automated evolution driven by basic rules of life, death, and reproduction based on neighboring cells. The platform provides an intuitive interface with speed controls, zoom options, and customization settings, offering a fascinating blend of mathematics, philosophy, and digital art that demonstrates how astonishing complexity can emerge from utter simplicity.",
+    developer : "John Conway (original ruleset); Web implementation maintained by independent developers",
+    year: "1970 (Original invention)",
+    genre: "Cellular Automaton / Simulation / Educational Tool",
+    link: "https://playgameoflife.com/"
+  },
 ];
 
 // ==================================== FUN SITES SECTION ============================================================
@@ -172,6 +182,16 @@ const funSites = [
     year: "2024 (Initial launch/Beta)",
     genre: "Interactive Visualization / Social / Web Art",
     link: "https://www.thegitcity.com/"
+  },
+  {
+    name: "Play Phrase",
+    img: "https://cdn.brandfetch.io/playphrase.me?c=1idGuZjjNQsbnvHtiGk",
+    desc: "An incredible audiovisual search engine that lets you search for any specific English phrase and instantly watch a continuous reel of movie clips where those exact words are spoken.",
+    longDesc: "PlayPhrase.me is a captivating web platform and discovery tool that indexes millions of movie dialogue clips to create a seamless, real-time video compilation for virtually any phrase you type. Users can instantly test how iconic movie lines or everyday expressions are delivered by different actors across film history, complete with subtitle synchronization and rapid playback. Whether you are an English language learner looking for real-world pronunciation examples, a filmmaker studying dialogue delivery, or a cinephile exploring memorable film moments, the site provides a sleek, addictive visual experience that makes browsing pop culture cinema effortlessly fun.",
+    developer : "Evgeny Purogov",
+    year: "2015",
+    genre: "Video Search / Media Tool / Audiovisual Aggregator",
+    link: "https://in.playphrase.me/"
   },
 ];
 
