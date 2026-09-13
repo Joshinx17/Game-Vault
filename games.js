@@ -129,6 +129,16 @@ const games = [
     genre: "Cellular Automaton / Simulation / Educational Tool",
     link: "https://playgameoflife.com/"
   },
+  {
+    name: "Entanglement",
+    img: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jz2.webp",
+    desc: "An addictive tile-placement puzzle game where you rotate and place hexagonal pieces to build the longest continuous path possible before running into a wall.",
+    longDesc: "Entanglement is a mesmerizing, zen-like strategy game that challenges players to extend a winding path across a expanding hexagonal grid. Each turn, you place or rotate a tile etched with intricate pathways, growing your line to score points while carefully planning ahead to avoid trapping yourself against the outer boundaries or obstacles. Featuring soothing ambient audio, minimalist visuals, and simple mechanics that hide deep tactical complexity, it offers a deeply relaxing yet intensely engaging puzzle experience that keeps you trying just one more round to beat your high score.",
+    developer : "Gopherwood Studios LLC",
+    year: "2010",
+    genre: "Puzzle / Strategy / Casual Indie Game",
+    link: "https://entanglement.gopherwoodstudios.com"
+  },
 ];
 
 // ==================================== FUN SITES SECTION ============================================================
@@ -192,6 +202,16 @@ const funSites = [
     year: "2015",
     genre: "Video Search / Media Tool / Audiovisual Aggregator",
     link: "https://in.playphrase.me/"
+  },
+  {
+    name: "3DTuning.com",
+    img: "https://play-lh.googleusercontent.com/xXj2hgRgupmIq3B6ZV2Ey2LtIGeVcI3bespcNT8P2N4Pu_TNxtCFQPfpqlzGAmYEaW4=w3840-h2160-rw",
+    desc: "A massive, interactive 3D car configurator that lets you customize thousands of realistic vehicles with authentic aftermarket parts and paints.",
+    longDesc: "3DTuning.com is an ultra-immersive photorealistic car customization platform that gives automotive enthusiasts complete creative freedom to build their dream rides in stunning 3D. With an expansive garage containing thousands of cars, trucks, and motorbikes—ranging from classic vintage models to modern hypercars—users can modify every detail including body kits, rims, suspension heights, window tints, vinyls, and custom paint finishes. Combining sleek interactive visuals with a global community where creators can share, rate, and showcase their builds, it stands as the ultimate virtual workshop for gearheads, designers, and casual car lovers alike.",
+    developer : "3DTuning LLC",
+    year: "2012",
+    genre: "Interactive 3D Simulator / Car Customizer / Web Tool",
+    link: "https://www.3dtuning.com/"
   },
 ];
 
