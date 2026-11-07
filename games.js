@@ -50,6 +50,16 @@ const games = [
     link: "https://flappybird.io/"
   },
   {
+    name: "Namma Benglooru",
+    img: "https://yt3.googleusercontent.com/cjmaeVnaC_dbB79Rrlkr-6iuXB1xmYy64C1Xbe-hPcBOACtDooQ6M9WDQoUtMUs-5F0wQTNtWuY=s900-c-k-c0x00ffffff-no-rj",
+    desc: "A free, browser-based open-world game that lets you explore and drive through a stylized, vibrant virtual rendition of Koramangala, Bengaluru.",
+    longDesc: "Benglooru is an independent passion project that brings a piece of India's Silicon Valley to life as a playable virtual playground without requiring any downloads, installation packages, or user accounts. Players can hop into various vehicles (including autos and buses), complete neighborhood missions, try out local cheat codes, and snap photos or record clips using built-in tools. Designed to load right inside your tab, it offers an accessible, highly immersive love letter to Bengaluru's culture, sights, and everyday energy.",
+    developer : "Independent Developer (Indie Dev)",
+    year: "2026",
+    genre: "Open-World Simulation / Browser Game / Action-Adventure",
+    link: "https://benglooru.com/"
+  },
+  {
     name: "2048",
     img: "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/cb8c967c-4a78-4ffa-8506-cbac69746f4f/2048.png",
     desc: "A popular, single-player sliding block puzzle game where the goal is to combine numbered tiles to reach the '2048' tile.",
@@ -58,6 +68,16 @@ const games = [
     year: 2014,
     genre: "Puzzle / Sliding Block Puzzle / Math Game",
     link: "https://play2048.co/"
+  },
+  {
+    name: "Rooftop Reset",
+    img: "./files/poteto.png",
+    desc: "A charming, browser-based indie arcade platformer featuring challenging vertical climbs, tight controls, and whimsical character levels.",
+    longDesc: "Poteto.com is a whimsical indie game portal and showcase created by independent developer Tibo. Featuring polished browser titles built around physics-based movement and tough-as-nails platforming challenges, it invites players to dive straight into fast-paced puzzle and climbing adventures without any downloads, logins, or installation hurdles. With clean retro-inspired aesthetics, snappy keyboard controls, and varying difficulty tiers, it provides quick bursts of challenging arcade fun.",
+    developer : "Tibo",
+    year: 2024,
+    genre: "Indie Platformer / Browser Arcade / Action Game",
+    link: "https://www.poteto.com/"
   },
   {
     name: "Skribbl.io",
@@ -139,6 +159,17 @@ const games = [
     genre: "Puzzle / Strategy / Casual Indie Game",
     link: "https://entanglement.gopherwoodstudios.com"
   },
+  {
+    name: "FightKaro",
+    img: "https://fightfightkaro.com/media/shot-hud.webp",
+    desc: "A viral, browser-based 1v1 political satire fighting game where caricature figures battle through parody arenas.",
+    longDesc: "FightKaro (officially titled Sansad Showdown: The Great Kursi Fight) has taken social media by storm as a lighthearted digital satire piece. Designed strictly as an entertaining web application rather than an official political statement or tool, it lets users jump straight into fast-paced 1v1 bouts against the computer or friends using simple keyboard controls. Featuring arcade-style health bars, special move combos, hidden boss challenges like 'MBAPU,' and rapid-fire joke commentary, it merges political pop culture with classic retro arcade action directly inside any desktop or mobile browser without requiring app downloads.",
+    developer : "Independent Web Creators / Parody Project",
+    year: "2026",
+    genre: "Political Satire / Casual Fighting Game / Browser Simulation",
+    link: "https://fightkaro.com/"
+  },
+  
 ];
 
 // ==================================== FUN SITES SECTION ============================================================
