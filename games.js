@@ -80,6 +80,16 @@ const games = [
     link: "https://www.poteto.com/"
   },
   {
+    name: "Pelican on a Bike (鹈鹕骑单车)",
+    img: "https://pbs.twimg.com/amplify_video_thumb/2116856401951916032/img/HqIDbIFh_WPsBJoV.jpg",
+    desc: "A serene, endless 3D web game where a helmeted pelican rides a retro bicycle down a coastal road, scooping up fish along the way.",
+    longDesc: "Inspired by popular WebGL tech demos and generative AI creative prompts, Pelican on a Bike transforms a simple, playful concept into a fully realized, meditative 3D driving experience. Featuring smooth physics, customizable camera angles, dynamic day-and-night cycles, and atmospheric ambient audio, the game invites players to cruise endlessly along an ocean highway. With intuitive controls for steering, gear shifting, ringing your bike bell, or performing tricks, it delivers an ultra-cozy, zero-stress casual game that runs seamlessly right inside your web browser.",
+    developer :  "Independent Web Creators / Open-Source WebGL Project",
+    year: "2025",
+    genre: "Endless Runner / Casual Simulation / Relaxing Indie Game",
+    link: "https://claude-opus-5-5.riba2534.cn/"
+  },
+  {
     name: "Skribbl.io",
     img: "https://external-preview.redd.it/VKEv0-GWAoTV7Z9SmkakDC2CY32JKYMQDXGWC2PAAso.jpg?width=640&crop=smart&auto=webp&s=f7a962af3fa26d2f0e93aab807480e4b3000c559",
     desc: "A funny & addictive multiplayer drawing and guessing game that brings the classic 'Pictionary' experience to your web browser.",
@@ -98,6 +108,16 @@ const games = [
     year: 2020,
     genre: "Social Deduction / Multiplayer / Strategy",
     link: "https://betrayal.io/"
+  },
+    {
+    name: "FightKaro",
+    img: "https://fightfightkaro.com/media/shot-hud.webp",
+    desc: "A viral, browser-based 1v1 political satire fighting game where caricature figures battle through parody arenas.",
+    longDesc: "FightKaro (officially titled Sansad Showdown: The Great Kursi Fight) has taken social media by storm as a lighthearted digital satire piece. Designed strictly as an entertaining web application rather than an official political statement or tool, it lets users jump straight into fast-paced 1v1 bouts against the computer or friends using simple keyboard controls. Featuring arcade-style health bars, special move combos, hidden boss challenges like 'MBAPU,' and rapid-fire joke commentary, it merges political pop culture with classic retro arcade action directly inside any desktop or mobile browser without requiring app downloads.",
+    developer : "Independent Web Creators / Parody Project",
+    year: "2026",
+    genre: "Political Satire / Casual Fighting Game / Browser Simulation",
+    link: "https://fightkaro.com/"
   },
   {
     name: "Krunker",
@@ -159,16 +179,8 @@ const games = [
     genre: "Puzzle / Strategy / Casual Indie Game",
     link: "https://entanglement.gopherwoodstudios.com"
   },
-  {
-    name: "FightKaro",
-    img: "https://fightfightkaro.com/media/shot-hud.webp",
-    desc: "A viral, browser-based 1v1 political satire fighting game where caricature figures battle through parody arenas.",
-    longDesc: "FightKaro (officially titled Sansad Showdown: The Great Kursi Fight) has taken social media by storm as a lighthearted digital satire piece. Designed strictly as an entertaining web application rather than an official political statement or tool, it lets users jump straight into fast-paced 1v1 bouts against the computer or friends using simple keyboard controls. Featuring arcade-style health bars, special move combos, hidden boss challenges like 'MBAPU,' and rapid-fire joke commentary, it merges political pop culture with classic retro arcade action directly inside any desktop or mobile browser without requiring app downloads.",
-    developer : "Independent Web Creators / Parody Project",
-    year: "2026",
-    genre: "Political Satire / Casual Fighting Game / Browser Simulation",
-    link: "https://fightkaro.com/"
-  },
+
+  
   
 ];
 
