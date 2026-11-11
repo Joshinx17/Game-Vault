@@ -40,6 +40,16 @@ const games = [
     link: "https://littlealchemy2.com/"
   },
   {
+    name: "Starry Nightrider",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1714460/capsule_616x353.jpg?t=1758630227",
+    desc: "An immersive, atmospheric browser-based arcade or experiential web application built through modern AI development tools.",
+    longDesc: "StarryNightRider.com is a specialized, web-rendered interactive project that showcases the capabilities of next-generation AI coding assistants. Designed as a polished, standalone browser experience, it delivers an engaging thematic digital journey complete with custom visuals and smooth interactive elements.",
+    developer : "AI-Assisted Creator / Independent Developer",
+    year: 2026,
+    genre: "Interactive Web App / Experimental Browser Project",
+    link: "https://starrynightrider.com/"
+  },
+  {
     name: "Flappy Bird",
     img: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/flappybird_cover.jpg",
     desc: "A notoriously difficult, one-button arcade sensation that challenges your patience and reflexes with every tap.",
@@ -98,6 +108,16 @@ const games = [
     year: 2017,
     genre: "Multiplayer / Casual / Drawing & Guessing Game",
     link: "https://skribbl.io/"
+  },
+  {
+    name: "Doodle Shooter",
+    img: "https://doodledistrict.online/og-image.jpg",
+    desc: "A fast-paced, stylish browser-based survival shooter set inside a hand-drawn scribbled world with chaotic wave combat and online multiplayer.",
+    longDesc: "Doodle Shooter (often titled Doodle District) is an action-packed 3D shooter built directly for web browsers, featuring a distinctive notebook-doodle aesthetic across streets, rooftops, and jungle temples. Players utilize an arsenal of rifles, shotguns, sniper rifles, and katanas paired with fluid movement mechanics like wall-jumping, sliding, air-dashing, and grappling hooks to survive relentless waves or fight in free-for-all online matches.",
+    developer: "Independent Web Game Creators / Vercel Community Project",
+    year: 2025,
+    genre: "First-Person Shooter / Action / Arcade Survival",
+    link: "https://doodleshooter.vercel.app/"
   },
   {
     name: "Betrayal.io",
